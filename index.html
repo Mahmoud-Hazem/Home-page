@@ -5,8 +5,6 @@
 <link rel="icon" type="image/jfif"href="https://i.ibb.co/r22Bnt5/t-l-chargement-2.png">
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<script>
-</script>
 <style>
 body
 {
@@ -59,14 +57,26 @@ img {
   height: fit-content;
 }
 body,html{height:100%;}
+button{
+background-color:#90E88D;
+border: 0.1vw solid #6D1F75;
+font-size: 2vw;
+border-radius: 0.3vw;
+}
 		
 </style>
   </head>
  <body style="background-image: linear-gradient(#FA6B31,#DD9F46);background-size:100% 100%;">
+ <!--........................................................................................................................................................................-->
+ <div class="div-b">
+ <button  onclick="myFunction();" class="button"style="margin-left:2vw;margin-top:0.5vw;" >Home</button>
+ <a href="#1"> <button " class="button"style="margin-left:4vw;margin-top:0.5vw;margin-right:0;" >learn more</button></a><!-- <a href="="#1" class="btn btn-primary">Go to Google-->
+ </div>
+ <!--........................................................................................................................................................................-->
  <div class="div-a">
  <h1 style="font-size:5vw;color:#fa6b31;">New Enviroment <img src="https://i.ibb.co/r22Bnt5/t-l-chargement-2.png" alt="The company's logo" width="10%"height="10%"align="center ;"> </h1>
  <pre class="pre-a" style="font-size:2vw;color:#90ee90;margin-left:10%;margin-right:10%;">
- New enviroment is a well-known company allover the world that produces enviromental-friendly products and uses part of income to plant trees,recycle waste and find enviromental solutions for developing countries.
+ New enviroment is a well-known company all over the world that produces enviromental-friendly products and uses part of income to plant trees,recycle waste and find enviromental solutions for developing countries.
  </pre>
  </div>
  <!--.........................................................................................................................................................................-->
@@ -111,7 +121,7 @@ body,html{height:100%;}
 </pre>
 </div>
 <!--.............................................................................................................................................................................-->
-<div class="div-b" style="background-color:#F6E7BD;">
+<div class="div-b" id="1" style="background-color:#F6E7BD;">
 <pre style="margin-left:0;">
 learn more:
 <hr>
@@ -122,5 +132,11 @@ learn more:
 </pre>
 
 </div>
+<script>
+function myFunction() {
+  location.replace("https://mahmoud-hazem.github.io/Home-page/");
+  }
+</script>
+
   </body>
   </html>
