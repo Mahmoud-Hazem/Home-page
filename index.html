@@ -9,7 +9,7 @@
 body
 {
 max-width:100%;
-width:100%
+width:100%;
 height:fit-content;
 margin:auto;
 }
@@ -20,7 +20,8 @@ img {
 .div-a 
        {
 	   background-image:url('https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f45131fdfde418025492548%2F0x0.jpg');
-	   width:100%
+	   width:100%;
+	   height:100%;
        height:fit-content;
 	   background-size:100%;
 	   text-align:center;
@@ -46,11 +47,8 @@ img {
             white-space: -moz-pre-wrap;
             white-space: -pre-wrap;
             white-space: -o-pre-wrap;
-            font-size:2vw;
 			text-align:right;
 			max-width:50%;
-			margin-left:10%;
-			margin-right:10%;
 		       }
  .div-b {
   width: 100%;
@@ -58,25 +56,33 @@ img {
 }
 body,html{height:100%;}
 button{
-background-color:#90E88D;
+background-color:#1cdd20;
 border: 0.1vw solid #6D1F75;
 font-size: 2vw;
 border-radius: 0.3vw;
+color:#8310a3;
+}
+button:hover{
+ background-color:#FFEBCE;
+ color:#0C3E9F;
 }
 		
 </style>
   </head>
  <body style="background-image: linear-gradient(#FA6B31,#DD9F46);background-size:100% 100%;">
  <!--........................................................................................................................................................................-->
- <div class="div-b">
+ <div class="div-b" style="background-color:tomato;">
  <button  onclick="myFunction();" class="button"style="margin-left:2vw;margin-top:0.5vw;" >Home</button>
- <a href="#1"> <button " class="button"style="margin-left:4vw;margin-top:0.5vw;margin-right:0;" >learn more</button></a><!-- <a href="="#1" class="btn btn-primary">Go to Google-->
+ <button  onclick="ayFunction();" class="button"style="margin-left:0.5vw;margin-top:0.5vw;" >Products</button>
+ <button  onclick="byFunction();" class="button"style="margin-left:0.5vw;margin-top:0.5vw;" >Projects</button>
+ <a href="#1"> <button " class="button"style="margin-left:0.5vw;margin-top:0.5vw;margin-right:0;" >learn more</button></a>
+ <button  onclick="cyFunction();" class="button"style="margin-left:0.5vw;margin-top:0.5vw;" >Log in</button>
  </div>
  <!--........................................................................................................................................................................-->
  <div class="div-a">
  <h1 style="font-size:5vw;color:#fa6b31;">New Enviroment <img src="https://i.ibb.co/r22Bnt5/t-l-chargement-2.png" alt="The company's logo" width="10%"height="10%"align="center ;"> </h1>
- <pre class="pre-a" style="font-size:2vw;color:#90ee90;margin-left:10%;margin-right:10%;">
- New enviroment is a well-known company all over the world that produces enviromental-friendly products and uses part of income to plant trees,recycle waste and find enviromental solutions for developing countries.
+ <pre class="pre-a" style="font-size:2vw;color:#81e87f;margin-left:10%;margin-right:10%;">
+ New enviroment is a well-known company all over the world that produces renewable energy , enviromental-friendly products and uses part of income to plant trees,recycle waste and find enviromental solutions for developing countries.
  </pre>
  </div>
  <!--.........................................................................................................................................................................-->
@@ -123,7 +129,7 @@ border-radius: 0.3vw;
 <!--.............................................................................................................................................................................-->
 <div class="div-b" id="1" style="background-color:#F6E7BD;">
 <pre style="margin-left:0;">
-learn more:
+  learn more
 <hr>
 <ul>
 <li><a href="https://mahmoud-hazem.github.io/Terms-and-conditions/">Terms and conditions</a></li>
@@ -136,7 +142,12 @@ learn more:
 function myFunction() {
   location.replace("https://mahmoud-hazem.github.io/Home-page/");
   }
+  function ayFunction(){
+  window.open("https://mahmoud-hazem.github.io/Products/");
+  }
+  function byFunction(){
+  window.open("https://mahmoud-hazem.github.io/Projects/");
+  }
 </script>
-
   </body>
   </html>
